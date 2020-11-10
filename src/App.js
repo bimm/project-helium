@@ -124,7 +124,12 @@ function App() {
 
       <section className={classes.businessSection}>
         <Container maxWidth="md">
-          <Typography variant="h2" color="textSecondary" paragraph>
+          <Typography
+            variant="h2"
+            color="textSecondary"
+            align="center"
+            paragraph
+          >
             Businesses that shape our communities
           </Typography>
           <Grid container justify="center" style={{ paddingBottom: '50px' }}>
