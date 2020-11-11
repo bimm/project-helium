@@ -14,10 +14,12 @@ const useStyles = makeStyles({
       position: 'absolute',
       left: 0,
       right: 0,
-      borderTopRightRadius: curvedSectionsAmount,
-      borderTopLeftRadius: curvedSectionsAmount,
       backgroundColor: '#434c56',
       margin: 'auto',
+      '@media only screen and (max-width: 960px)': {
+        borderTopRightRadius: curvedSectionsAmount,
+        borderTopLeftRadius: curvedSectionsAmount,
+      },
     },
   },
   applySection: {
@@ -32,10 +34,12 @@ const useStyles = makeStyles({
       position: 'absolute',
       left: 0,
       right: 0,
-      borderTopRightRadius: curvedSectionsAmount,
-      borderTopLeftRadius: curvedSectionsAmount,
       backgroundColor: '#fff',
       margin: 'auto',
+      '@media only screen and (max-width: 960px)': {
+        borderTopRightRadius: curvedSectionsAmount,
+        borderTopLeftRadius: curvedSectionsAmount,
+      },
     },
   },
   businessSection: {
@@ -51,9 +55,11 @@ const useStyles = makeStyles({
       left: 0,
       right: 0,
       backgroundColor: '#EC6723',
-      borderTopRightRadius: curvedSectionsAmount,
-      borderTopLeftRadius: curvedSectionsAmount,
       margin: 'auto',
+      '@media only screen and (max-width: 960px)': {
+        borderTopRightRadius: curvedSectionsAmount,
+        borderTopLeftRadius: curvedSectionsAmount,
+      },
     },
   },
   footerSection: {
