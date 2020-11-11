@@ -1,19 +1,21 @@
 import { makeStyles } from '@material-ui/core/styles';
 
+const curvedSectionsAmount = '100%';
+
 const useStyles = makeStyles({
   introSection: {
     flex: 1,
     backgroundColor: '#314053',
-    paddingBottom: '140px',
+    paddingBottom: '45px',
     '&::after': {
       content: `''`,
       width: '100%',
-      height: '150px',
+      height: '50px',
       position: 'absolute',
       left: 0,
       right: 0,
-      borderTopRightRadius: '50%',
-      borderTopLeftRadius: '50%',
+      borderTopRightRadius: curvedSectionsAmount,
+      borderTopLeftRadius: curvedSectionsAmount,
       backgroundColor: '#434c56',
       margin: 'auto',
     },
@@ -22,16 +24,16 @@ const useStyles = makeStyles({
     flex: 1,
     backgroundColor: '#434c56',
     paddingTop: '20px',
-    paddingBottom: '140px',
+    paddingBottom: '45px',
     '&::after': {
       content: `''`,
       width: '100%',
-      height: '150px',
+      height: '50px',
       position: 'absolute',
       left: 0,
       right: 0,
-      borderTopRightRadius: '50%',
-      borderTopLeftRadius: '50%',
+      borderTopRightRadius: curvedSectionsAmount,
+      borderTopLeftRadius: curvedSectionsAmount,
       backgroundColor: '#fff',
       margin: 'auto',
     },
@@ -40,17 +42,17 @@ const useStyles = makeStyles({
     flex: 1,
     backgroundColor: '#FFF',
     paddingTop: '20px',
-    paddingBottom: '140px',
+    paddingBottom: '45px',
     '&::after': {
       content: `''`,
       width: '100%',
-      height: '150px',
+      height: '50px',
       position: 'absolute',
       left: 0,
       right: 0,
       backgroundColor: '#EC6723',
-      borderTopRightRadius: '50%',
-      borderTopLeftRadius: '50%',
+      borderTopRightRadius: curvedSectionsAmount,
+      borderTopLeftRadius: curvedSectionsAmount,
       margin: 'auto',
     },
   },
@@ -58,7 +60,12 @@ const useStyles = makeStyles({
     flex: 1,
     backgroundColor: '#EC6723',
     paddingTop: '20px',
-    paddingBottom: '50px',
+    paddingBottom: '45px',
+  },
+  copy: {
+    '@media only screen and (max-width: 960px)': {
+      textAlign: 'center',
+    },
   },
   image: {
     maxWidth: '100%',
@@ -66,6 +73,15 @@ const useStyles = makeStyles({
     margin: '0 auto',
     marginTop: '50px',
     marginBottom: '50px',
+    '@media only screen and (max-width: 960px)': {
+      marginTop: '80px',
+    },
+  },
+  applyNowImage: {
+    maxWidth: '100%',
+    height: 'auto',
+    margin: '0 auto',
+    marginBottom: '40px',
   },
   instagramImage: {
     maxWidth: '100%',

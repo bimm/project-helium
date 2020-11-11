@@ -18,6 +18,10 @@ const bimmOrange = {
   main: '#EC6723',
 };
 
+const softWhite = {
+  main: greys[50],
+};
+
 const theme = createMuiTheme({
   spacing: (factor) => `${0.8 * factor}rem`,
   typography: {
@@ -69,6 +73,9 @@ const theme = createMuiTheme({
   palette: {
     primary: {
       ...bimmOrange,
+    },
+    secondary: {
+      ...softWhite,
     },
     text: {
       primary: fade(greys[50], 0.87),
