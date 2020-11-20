@@ -4,10 +4,6 @@ const useStyles = makeStyles({
   introSection: {
     flex: 1,
     backgroundColor: '#314053',
-    paddingBottom: '45px',
-    '@media only screen and (min-width: 960px)': {
-      paddingTop: '100px',
-    },
   },
   applySection: {
     flex: 1,
@@ -35,8 +31,11 @@ const useStyles = makeStyles({
   image: {
     maxWidth: '100%',
     height: 'auto',
-    margin: '0 auto',
+    paddingTop: '50px',
     marginBottom: '50px',
+    '@media only screen and (min-width: 960px)': {
+      paddingTop: '100px',
+    },
   },
   applyNowImage: {
     maxWidth: '100%',
@@ -48,7 +47,6 @@ const useStyles = makeStyles({
     maxWidth: '100%',
     height: 'auto',
     margin: '0 auto',
-    marginBottom: '20px',
   },
   largeIcon: {
     fontSize: '100px !important',

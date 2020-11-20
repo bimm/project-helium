@@ -161,14 +161,26 @@ function App() {
           >
             Businesses that shape our communities
           </Typography>
-          <Grid container justify="center" style={{ paddingBottom: '50px' }}>
+          <Grid
+            container
+            justify="center"
+            spacing={2}
+            style={{ paddingBottom: '50px' }}
+          >
             <Grid item sm={12} md={6}>
               <Box display="flex" justify="center">
-                <img
-                  src="https://via.placeholder.com/250x350"
-                  alt="placeholder"
-                  className={classes.instagramImage}
-                />
+                <Link
+                  href="https://www.instagram.com/project.helium/"
+                  target="_blank"
+                  rel="noreferrer"
+                  underline="none"
+                >
+                  <img
+                    src="/images/Instagram_1.jpeg"
+                    alt="placeholder"
+                    className={classes.instagramImage}
+                  />
+                </Link>
               </Box>
             </Grid>
             <Grid item sm={12} md={6}>
@@ -178,29 +190,50 @@ function App() {
                 alignItems="center"
                 alignContent="center"
               >
-                <img
-                  src="https://via.placeholder.com/250x350"
-                  alt="placeholder"
-                  className={classes.instagramImage}
-                />
+                <Link
+                  href="https://www.instagram.com/project.helium/"
+                  target="_blank"
+                  rel="noreferrer"
+                  underline="none"
+                >
+                  <img
+                    src="/images/Instagram_2.jpg"
+                    alt="placeholder"
+                    className={classes.instagramImage}
+                  />
+                </Link>
               </Box>
             </Grid>
             <Grid item sm={12} md={6}>
               <Box display="flex" justify="center" alignItems="center">
-                <img
-                  src="https://via.placeholder.com/250x350"
-                  alt="placeholder"
-                  className={classes.instagramImage}
-                />
+                <Link
+                  href="https://www.instagram.com/project.helium/"
+                  target="_blank"
+                  rel="noreferrer"
+                  underline="none"
+                >
+                  <img
+                    src="/images/Instagram_3.jpg"
+                    alt="placeholder"
+                    className={classes.instagramImage}
+                  />
+                </Link>
               </Box>
             </Grid>
             <Grid item sm={12} md={6}>
               <Box display="flex" justify="center" alignItems="center">
-                <img
-                  src="https://via.placeholder.com/250x350"
-                  alt="placeholder"
-                  className={classes.instagramImage}
-                />
+                <Link
+                  href="https://www.instagram.com/project.helium/"
+                  target="_blank"
+                  rel="noreferrer"
+                  underline="none"
+                >
+                  <img
+                    src="/images/Instagram_4.jpg"
+                    alt="placeholder"
+                    className={classes.instagramImage}
+                  />
+                </Link>
               </Box>
             </Grid>
           </Grid>
@@ -211,7 +244,7 @@ function App() {
         <Container maxWidth="md">
           <Box display="flex" justifyContent="center" alignItems="center">
             <Link
-              href="https://www.instagram.com/project.helium/"
+              href="https://www.facebook.com/ProjectHeliumCanada"
               target="_blank"
               rel="noreferrer"
               underline="none"
