@@ -197,7 +197,7 @@ function App() {
                   underline="none"
                 >
                   <img
-                    src="/images/Instagram_2.jpg"
+                    src="/images/Instagram_2.JPG"
                     alt="placeholder"
                     className={classes.instagramImage}
                   />
